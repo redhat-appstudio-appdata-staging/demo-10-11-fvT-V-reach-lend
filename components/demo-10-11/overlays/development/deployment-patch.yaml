@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: demo-10-11
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jberger-tenant/demo-10-11/demo-10-11@sha256:33f60a4cc950a97b3a855534f9188b0c646bb2696b91d5c5557300127d580cf5
+        name: my-java-springboot
+        resources: {}
+status: {}
