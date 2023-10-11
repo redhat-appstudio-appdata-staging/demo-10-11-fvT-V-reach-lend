@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: demo-10-11
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jberger-tenant/demo-10-11/demo-10-11@sha256:20c5a913d5d55dbe36c20ac35408248c8ebb38d2b0042e7e3233c1ae38ffadba
+      - image: quay.io/redhat-user-workloads-stage/jberger-tenant/demo-10-11/demo-10-11@sha256:9391cc5bf871db01837a58d5120f88436dd7cffe0c02cb9955b750ba8a88ea4b
         name: my-java-springboot
         ports:
         - containerPort: 8081
