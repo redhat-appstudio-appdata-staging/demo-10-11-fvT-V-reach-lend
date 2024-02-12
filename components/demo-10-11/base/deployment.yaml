@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: demo-10-11
   name: demo-10-11
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
